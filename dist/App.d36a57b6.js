@@ -35681,7 +35681,153 @@ VoistrapWebImages.propTypes = {
 };
 var _default = VoistrapWebImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/GamesDev/Code.png":"Assets/Images/GamesDev/Code.png","../../../../Assets/Images/GamesDev/CardsGame.png":"Assets/Images/GamesDev/CardsGame.png","../../../../Assets/Images/GamesDev/TopDown.png":"Assets/Images/GamesDev/TopDown.png","../../../../Assets/Images/GamesDev/VampireLike.png":"Assets/Images/GamesDev/VampireLike.png"}],"Slides/WideScreen/WorkSlide/ImageContent.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/GamesDev/Code.png":"Assets/Images/GamesDev/Code.png","../../../../Assets/Images/GamesDev/CardsGame.png":"Assets/Images/GamesDev/CardsGame.png","../../../../Assets/Images/GamesDev/TopDown.png":"Assets/Images/GamesDev/TopDown.png","../../../../Assets/Images/GamesDev/VampireLike.png":"Assets/Images/GamesDev/VampireLike.png"}],"Slides/WideScreen/WorkSlide/ParallaxImages/ServerHostingImages.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _tftCE = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftCE.png"));
+
+var _tftPython = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftPython.png"));
+
+var _tftScreen = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftScreen.png"));
+
+var _tftLastProduct = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftLastProduct.png"));
+
+var _templateObject, _templateObject2, _templateObject3, _templateObject4;
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var TftCETab = _styledComponents.default.img.attrs({
+  style: function style(_ref) {
+    var scroll = _ref.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 16, "%) scale(0.5)")
+    };
+  }
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom:-140vh;\nright:-15vw;\n/* border: 1px dashed red; */\nheight: 80vh;\n"])));
+
+var TftPythonTab = _styledComponents.default.img.attrs({
+  style: function style(_ref2) {
+    var scroll = _ref2.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 12, "%) scale(0.5)")
+    };
+  }
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -130vh;\nright:-5vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+
+var TftScreenTab = _styledComponents.default.img.attrs({
+  style: function style(_ref3) {
+    var scroll = _ref3.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 8, "%) scale(0.5)")
+    };
+  }
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -100vh;\nright:-15vw;\n/* border: 1px dashed red; */\nheight: 80vh; \n"])));
+
+var TftLastProductTab = _styledComponents.default.img.attrs({
+  style: function style(_ref4) {
+    var scroll = _ref4.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 2, "%) scale(0.5)")
+    };
+  }
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-55vh;\nright:-8vw;\nposition: absolute;\n/* border: 1px dashed red; */\nheight: 80vh;\n/* filter: blur(1px); */\n"])));
+
+var KosenImages = /*#__PURE__*/function (_Component) {
+  _inherits(KosenImages, _Component);
+
+  var _super = _createSuper(KosenImages);
+
+  function KosenImages() {
+    _classCallCheck(this, KosenImages);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(KosenImages, [{
+    key: "render",
+    value: function render() {
+      var scrollPercent = this.props.scrollPercent;
+      var _this$props = this.props,
+          boxHeight = _this$props.boxHeight,
+          index = _this$props.index,
+          scrollHeight = _this$props.scrollHeight,
+          screenHeight = _this$props.screenHeight;
+      var heighttoBeReducedinVH = boxHeight * index - 100;
+      var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
+      var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
+      scrollPercent -= scrollOffsetInPercent;
+      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(TftCETab, {
+        src: _tftCE.default,
+        scroll: scrollPercent,
+        alt: "TftCE"
+      }), /*#__PURE__*/_react.default.createElement(TftPythonTab, {
+        src: _tftPython.default,
+        scroll: scrollPercent,
+        alt: "TftPython"
+      }), /*#__PURE__*/_react.default.createElement(TftScreenTab, {
+        src: _tftScreen.default,
+        scroll: scrollPercent,
+        alt: "TftScreen"
+      }), /*#__PURE__*/_react.default.createElement(TftLastProductTab, {
+        src: _tftLastProduct.default,
+        scroll: scrollPercent,
+        alt: "TftLastProduct"
+      }));
+    }
+  }]);
+
+  return KosenImages;
+}(_react.Component);
+
+KosenImages.propTypes = {
+  boxHeight: _propTypes.default.number.isRequired,
+  index: _propTypes.default.number.isRequired,
+  screenHeight: _propTypes.default.number.isRequired,
+  scrollHeight: _propTypes.default.number.isRequired,
+  scrollPercent: _propTypes.default.number.isRequired
+};
+var _default = KosenImages;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/TFT/tftCE.png":"Assets/Images/TFT/tftCE.png","../../../../Assets/Images/TFT/tftPython.png":"Assets/Images/TFT/tftPython.png","../../../../Assets/Images/TFT/tftScreen.png":"Assets/Images/TFT/tftScreen.png","../../../../Assets/Images/TFT/tftLastProduct.png":"Assets/Images/TFT/tftLastProduct.png"}],"Slides/WideScreen/WorkSlide/ImageContent.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35710,6 +35856,8 @@ var _EONImages = _interopRequireDefault(require("./ParallaxImages/EONImages"));
 var _Mod3DImages = _interopRequireDefault(require("./ParallaxImages/Mod3DImages"));
 
 var _GamesDevImages = _interopRequireDefault(require("./ParallaxImages/GamesDevImages"));
+
+var _ServerHostingImages = _interopRequireDefault(require("./ParallaxImages/ServerHostingImages"));
 
 var _templateObject, _templateObject2;
 
@@ -35743,7 +35891,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:1220vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:1470vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
 
 var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:40vh;\nheight: 100vh;\nposition: relative;\n"])));
 
@@ -35873,6 +36021,14 @@ var ImageContent = /*#__PURE__*/function (_Component) {
         scrollPercent: scrollPercent,
         screenHeight: screenHeight,
         scrollHeight: scrollHeight
+      })), /*#__PURE__*/_react.default.createElement(ImageBox, {
+        height: boxHeight
+      }, /*#__PURE__*/_react.default.createElement(_ServerHostingImages.default, {
+        boxHeight: boxHeight,
+        index: 8,
+        scrollPercent: scrollPercent,
+        screenHeight: screenHeight,
+        scrollHeight: scrollHeight
       })));
     }
   }]);
@@ -35885,7 +36041,7 @@ ImageContent.propTypes = {
 };
 var _default = ImageContent;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","./ParallaxImages/DyosImages":"Slides/WideScreen/WorkSlide/ParallaxImages/DyosImages.js","./ParallaxImages/DyosWorkImages":"Slides/WideScreen/WorkSlide/ParallaxImages/DyosWorkImages.js","./ParallaxImages/NumStrImages":"Slides/WideScreen/WorkSlide/ParallaxImages/NumStrImages.js","./ParallaxImages/LOLImages":"Slides/WideScreen/WorkSlide/ParallaxImages/LOLImages.js","./ParallaxImages/TFTImages":"Slides/WideScreen/WorkSlide/ParallaxImages/TFTImages.js","./ParallaxImages/EONImages":"Slides/WideScreen/WorkSlide/ParallaxImages/EONImages.js","./ParallaxImages/Mod3DImages":"Slides/WideScreen/WorkSlide/ParallaxImages/Mod3DImages.js","./ParallaxImages/GamesDevImages":"Slides/WideScreen/WorkSlide/ParallaxImages/GamesDevImages.js"}],"Slides/WideScreen/WorkSlide/Work.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","./ParallaxImages/DyosImages":"Slides/WideScreen/WorkSlide/ParallaxImages/DyosImages.js","./ParallaxImages/DyosWorkImages":"Slides/WideScreen/WorkSlide/ParallaxImages/DyosWorkImages.js","./ParallaxImages/NumStrImages":"Slides/WideScreen/WorkSlide/ParallaxImages/NumStrImages.js","./ParallaxImages/LOLImages":"Slides/WideScreen/WorkSlide/ParallaxImages/LOLImages.js","./ParallaxImages/TFTImages":"Slides/WideScreen/WorkSlide/ParallaxImages/TFTImages.js","./ParallaxImages/EONImages":"Slides/WideScreen/WorkSlide/ParallaxImages/EONImages.js","./ParallaxImages/Mod3DImages":"Slides/WideScreen/WorkSlide/ParallaxImages/Mod3DImages.js","./ParallaxImages/GamesDevImages":"Slides/WideScreen/WorkSlide/ParallaxImages/GamesDevImages.js","./ParallaxImages/ServerHostingImages":"Slides/WideScreen/WorkSlide/ParallaxImages/ServerHostingImages.js"}],"Slides/WideScreen/WorkSlide/Work.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35962,51 +36118,57 @@ var Work = /*#__PURE__*/function (_Component) {
       roles: ['']
     }, {
       number: '01',
-      projectName: 'Dyos GUI',
-      projectDesc: 'Design of a graphical user interface (GUI) for the software AVT.SVT tool DyOS.',
+      projectName: 'DyOS GUI',
+      projectDesc: 'Design and creation of a graphical user interface (GUI) for the AVT.SVT software tool DyOS.',
       projectType: 'Qt, C++',
       roles: ['Project', 'AVT.SVT - RWTH Aachen']
     }, {
       number: '02',
-      projectName: 'Dyos GUI',
-      projectDesc: 'Further development of Dyos and extending the graphical user interface with Qt/C++. Implementation of the continuous integration with Gitlab CI under Linux and Windows. Debugging and dynamic error analysis with Valgrind.',
-      projectType: 'Qt, C++, Gitlab',
+      projectName: 'DyOS GUI+',
+      projectDesc: 'Further development of DyOS and extension of the graphical user interface. Implementation of the continuous integration with Gitlab CI on Linux and Windows. Debugging and error analysis.',
+      projectType: 'Qt, C++, Gitlab, Valgrind',
       roles: ['Student Research Assistant', 'AVT.SVT - RWTH Aachen']
     }, {
       number: '03',
       projectName: 'Numerical simulation',
-      projectDesc: 'Programming, simulation and error analysis with C++ and ParaView of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Covection-diffusion equation (flux balance, centroidal and upwind discretization), Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
+      projectDesc: 'Programming, simulation and error analysis of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Convection-diffusion equation (flux balance, central and upwind discretization), Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
       projectType: 'C++, ParaView',
       roles: ['Project', 'RWTH Aachen']
     }, {
       number: '04',
       projectName: 'B.E.S. Development',
-      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluating different ontologies like SAREF and Brick and using FIWARE framework, MQTT network protocol, Python modules to realize an IoT communication (SPS to MQTT). Data visualization with FIWARE IoT Agent for JSON, MongoDB and Grafana.',
-      projectType: 'SAREF ontologies, FIWARE framework, MQTT, TwinCAT, MongoDB, Grafana',
+      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluating of different ontologies (SAREF, Brick, ...). Realization of an IoT communication (SPS to DataBase) using FIWARE framework, MQTT network protocol, Python modules. Data visualization with FIWARE IoT Agent for JSON, CrateDB and Grafana.',
+      projectType: 'Ontologies, FIWARE framework, MQTT, TwinCAT, CrateDB, MongoDB, Grafana',
       roles: ['Project', 'E.ON Energy Research Center - RWTH']
     }, {
       number: '05',
       projectName: 'League BestPick',
-      projectDesc: "This tool helps player to pick best champion that goes well with the current teammates/enemies selected champions, based on games data collected using League of legends' API (LCU) and represent the result in a webpage using Flask and React",
-      projectType: "Python, Flask, Electron-ReactJS, HTML, CSS, League of legends' API (LCU)",
+      projectDesc: "Based on games data collected using League of legends API (stored locally in a database) and Real-time data fetching from the game client using LCU API, this project helps players to pick the best champion that goes well with the currently selected teammates/enemies champions and represent the result in a live/dynamic webpage using Flask and React",
+      projectType: "Python, Flask, Electron-ReactJS, HTML, CSS, League of legends API, LCU API",
       roles: ['Project']
     }, {
       number: '06',
       projectName: 'TFT BestCombo',
-      projectDesc: 'This tool will read live the TFT game memory and collect all players board and field bought champion calculate how many left and display, sugguest the best possible combo to play in this game based on chances. Best Combo/Meta data and photos get mined by a data scraper that i made.',
+      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest  the best possible comps to play in this game based on chances. Best Comps/Meta data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
       projectType: 'Python, Flask, HTML, Css, custom memory Dumper, IDA, ReClass.NET.',
       roles: ['Project']
     }, {
       number: '07',
       projectName: '3D Modeling',
-      projectDesc: 'Since 2012, I have made many 3D Models as a project to test my limits or as objects to use in my video games or modding other video games (sadly wasnt able to find all the projects).',
+      projectDesc: 'Since 2015, I have made many 3D Models as projects to test my limits or as objects to use in my video games or modding other video games (soon I will extend this section to present more).',
       projectType: "Photoshop, Blender, Autodesk 3ds Max, Cinema4D, Siemens NX",
       roles: ['Projects']
     }, {
       number: '08',
       projectName: 'Video games development',
-      projectDesc: 'I Love Video Games and for 10 years and counting i made many of them 2D and 3D from cards game to FPS, testing as many engines as possible but mostly i have used unity (sadly wasnt able to find all the projects).',
-      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity',
+      projectDesc: 'Video Games are my passion and for 6 years and counting I made variety of them 2D and 3D from cards game to FPS single and multiplayer, testing as many engines as possible but mainly using unity (soon I will extend this section to present more).',
+      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
+      roles: ['Projects']
+    }, {
+      number: '09',
+      projectName: 'Hosting/maintaining games server ',
+      projectDesc: 'In the last 4 years I extended my knowledge with cloud (currently using oracle) and hosted my own multiplayer games server (Minecraft, Unturned, Conan exile, Rust, GTA5) with custom-made scripts and 3D models that I created and maintained to Enhance the best player experience (like optimizing scripts and 3D models to minimize client-server latency and reduce FPS stuttering and boost performance).',
+      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
       roles: ['Projects']
     }, {
       number: '',
@@ -38283,7 +38445,153 @@ VoistrapWebImages.propTypes = {
 };
 var _default = VoistrapWebImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/GamesDev/Code.png":"Assets/Images/GamesDev/Code.png","../../../../Assets/Images/GamesDev/CardsGame.png":"Assets/Images/GamesDev/CardsGame.png","../../../../Assets/Images/GamesDev/TopDown.png":"Assets/Images/GamesDev/TopDown.png","../../../../Assets/Images/GamesDev/VampireLike.png":"Assets/Images/GamesDev/VampireLike.png"}],"Slides/Mobile/WorkSlide/ImageContent.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/GamesDev/Code.png":"Assets/Images/GamesDev/Code.png","../../../../Assets/Images/GamesDev/CardsGame.png":"Assets/Images/GamesDev/CardsGame.png","../../../../Assets/Images/GamesDev/TopDown.png":"Assets/Images/GamesDev/TopDown.png","../../../../Assets/Images/GamesDev/VampireLike.png":"Assets/Images/GamesDev/VampireLike.png"}],"Slides/Mobile/WorkSlide/ParallaxImages/ServerHostingImages.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _tftCE = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftCE.png"));
+
+var _tftPython = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftPython.png"));
+
+var _tftScreen = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftScreen.png"));
+
+var _tftLastProduct = _interopRequireDefault(require("../../../../Assets/Images/TFT/tftLastProduct.png"));
+
+var _templateObject, _templateObject2, _templateObject3, _templateObject4;
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var TftScreenTab = _styledComponents.default.img.attrs({
+  style: function style(_ref) {
+    var scroll = _ref.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.8)")
+    };
+  }
+})(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -80vh;\nleft:2vw;\ntransform-origin: left center;\n/* border: 1px dashed red; */\nwidth: 80vw; \n"])));
+
+var TftCETab = _styledComponents.default.img.attrs({
+  style: function style(_ref2) {
+    var scroll = _ref2.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.8)")
+    };
+  }
+})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom:-47vh;\nleft: 2vw;\ntransform-origin: left center;\n/* border: 1px dashed red; */\nwidth: 80vw;\n"])));
+
+var TftPythonTab = _styledComponents.default.img.attrs({
+  style: function style(_ref3) {
+    var scroll = _ref3.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.8)")
+    };
+  }
+})(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-63vh;\nright:2vw;\ntransform-origin: right center;\nposition: absolute;\n/* border: 1px dashed red; */\nwidth: 80vw;\n"])));
+
+var TftLastProductTab = _styledComponents.default.img.attrs({
+  style: function style(_ref4) {
+    var scroll = _ref4.scroll;
+    return {
+      transform: "translate(0px,-".concat(scroll * 10, "%) scale(0.8)")
+    };
+  }
+})(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nbottom:-90vh;\nright: 2vw;\ntransform-origin: right center;\nposition: absolute;\n/* border: 1px dashed red; */\nwidth: 80vw;\n"])));
+
+var VoistrapWebImages = /*#__PURE__*/function (_Component) {
+  _inherits(VoistrapWebImages, _Component);
+
+  var _super = _createSuper(VoistrapWebImages);
+
+  function VoistrapWebImages() {
+    _classCallCheck(this, VoistrapWebImages);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(VoistrapWebImages, [{
+    key: "render",
+    value: function render() {
+      var scrollPercent = this.props.scrollPercent;
+      var _this$props = this.props,
+          boxHeight = _this$props.boxHeight,
+          index = _this$props.index,
+          scrollHeight = _this$props.scrollHeight,
+          screenHeight = _this$props.screenHeight;
+      var heighttoBeReducedinVH = boxHeight * index - 100;
+      var scrollOffset = screenHeight * heighttoBeReducedinVH / 100;
+      var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
+      scrollPercent -= scrollOffsetInPercent;
+      return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(TftCETab, {
+        src: _tftCE.default,
+        scroll: scrollPercent,
+        alt: "TftCE"
+      }), /*#__PURE__*/_react.default.createElement(TftPythonTab, {
+        src: _tftPython.default,
+        scroll: scrollPercent,
+        alt: "TftPython"
+      }), /*#__PURE__*/_react.default.createElement(TftScreenTab, {
+        src: _tftScreen.default,
+        scroll: scrollPercent,
+        alt: "TftScreen"
+      }), /*#__PURE__*/_react.default.createElement(TftLastProductTab, {
+        src: _tftLastProduct.default,
+        scroll: scrollPercent,
+        alt: "TftLastProduct"
+      }));
+    }
+  }]);
+
+  return VoistrapWebImages;
+}(_react.Component);
+
+VoistrapWebImages.propTypes = {
+  boxHeight: _propTypes.default.number.isRequired,
+  index: _propTypes.default.number.isRequired,
+  screenHeight: _propTypes.default.number.isRequired,
+  scrollHeight: _propTypes.default.number.isRequired,
+  scrollPercent: _propTypes.default.number.isRequired
+};
+var _default = VoistrapWebImages;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/TFT/tftCE.png":"Assets/Images/TFT/tftCE.png","../../../../Assets/Images/TFT/tftPython.png":"Assets/Images/TFT/tftPython.png","../../../../Assets/Images/TFT/tftScreen.png":"Assets/Images/TFT/tftScreen.png","../../../../Assets/Images/TFT/tftLastProduct.png":"Assets/Images/TFT/tftLastProduct.png"}],"Slides/Mobile/WorkSlide/ImageContent.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38314,6 +38622,8 @@ var _EONImages = _interopRequireDefault(require("./ParallaxImages/EONImages"));
 var _Mod3DImages = _interopRequireDefault(require("./ParallaxImages/Mod3DImages"));
 
 var _GamesDevImages = _interopRequireDefault(require("./ParallaxImages/GamesDevImages"));
+
+var _ServerHostingImages = _interopRequireDefault(require("./ParallaxImages/ServerHostingImages"));
 
 var _templateObject, _templateObject2;
 
@@ -38347,7 +38657,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nwidth:100%;\nheight:1220vh;\nmargin-bottom:30vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nwidth:100%;\nheight:1470vh;\nmargin-bottom:30vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
 
 var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:30vh;\nheight: 100vh;\nposition: relative;\n"])));
 
@@ -38480,6 +38790,14 @@ var ImageContent = /*#__PURE__*/function (_Component) {
         scrollPercent: scrollPercent,
         screenHeight: screenHeight,
         scrollHeight: scrollHeight
+      })), /*#__PURE__*/_react.default.createElement(ImageBox, {
+        height: boxHeight
+      }, /*#__PURE__*/_react.default.createElement(_ServerHostingImages.default, {
+        boxHeight: boxHeight,
+        index: 8,
+        scrollPercent: scrollPercent,
+        screenHeight: screenHeight,
+        scrollHeight: scrollHeight
       })));
     }
   }]);
@@ -38492,7 +38810,7 @@ ImageContent.propTypes = {
 };
 var _default = ImageContent;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","vh-check":"../node_modules/vh-check/dist/vh-check.js","./ParallaxImages/DyosImages":"Slides/Mobile/WorkSlide/ParallaxImages/DyosImages.js","./ParallaxImages/DyosWorkImages":"Slides/Mobile/WorkSlide/ParallaxImages/DyosWorkImages.js","./ParallaxImages/NumStrImages":"Slides/Mobile/WorkSlide/ParallaxImages/NumStrImages.js","./ParallaxImages/LOLImages":"Slides/Mobile/WorkSlide/ParallaxImages/LOLImages.js","./ParallaxImages/TFTImages":"Slides/Mobile/WorkSlide/ParallaxImages/TFTImages.js","./ParallaxImages/EONImages":"Slides/Mobile/WorkSlide/ParallaxImages/EONImages.js","./ParallaxImages/Mod3DImages":"Slides/Mobile/WorkSlide/ParallaxImages/Mod3DImages.js","./ParallaxImages/GamesDevImages":"Slides/Mobile/WorkSlide/ParallaxImages/GamesDevImages.js"}],"Slides/Mobile/WorkSlide/Work.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","vh-check":"../node_modules/vh-check/dist/vh-check.js","./ParallaxImages/DyosImages":"Slides/Mobile/WorkSlide/ParallaxImages/DyosImages.js","./ParallaxImages/DyosWorkImages":"Slides/Mobile/WorkSlide/ParallaxImages/DyosWorkImages.js","./ParallaxImages/NumStrImages":"Slides/Mobile/WorkSlide/ParallaxImages/NumStrImages.js","./ParallaxImages/LOLImages":"Slides/Mobile/WorkSlide/ParallaxImages/LOLImages.js","./ParallaxImages/TFTImages":"Slides/Mobile/WorkSlide/ParallaxImages/TFTImages.js","./ParallaxImages/EONImages":"Slides/Mobile/WorkSlide/ParallaxImages/EONImages.js","./ParallaxImages/Mod3DImages":"Slides/Mobile/WorkSlide/ParallaxImages/Mod3DImages.js","./ParallaxImages/GamesDevImages":"Slides/Mobile/WorkSlide/ParallaxImages/GamesDevImages.js","./ParallaxImages/ServerHostingImages":"Slides/Mobile/WorkSlide/ParallaxImages/ServerHostingImages.js"}],"Slides/Mobile/WorkSlide/Work.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38571,51 +38889,57 @@ var Work = /*#__PURE__*/function (_Component) {
       roles: ['']
     }, {
       number: '01',
-      projectName: 'Dyos GUI',
-      projectDesc: 'Design of a graphical user interface (GUI) for the software AVT.SVT tool DyOS.',
+      projectName: 'DyOS GUI',
+      projectDesc: 'Design and creation of a graphical user interface (GUI) for the AVT.SVT software tool DyOS.',
       projectType: 'Qt, C++',
       roles: ['Project', 'AVT.SVT - RWTH Aachen']
     }, {
       number: '02',
-      projectName: 'Dyos GUI',
-      projectDesc: 'Further development of Dyos and extending the graphical user interface with Qt/C++. Implementation of the continuous integration with Gitlab CI under Linux and Windows. Debugging and dynamic error analysis with Valgrind.',
-      projectType: 'Qt, C++, Gitlab',
+      projectName: 'DyOS GUI+',
+      projectDesc: 'Further development of DyOS and extension of the graphical user interface. Implementation of the continuous integration with Gitlab CI on Linux and Windows. Debugging and error analysis.',
+      projectType: 'Qt, C++, Gitlab, Valgrind',
       roles: ['Student Research Assistant', 'AVT.SVT - RWTH Aachen']
     }, {
       number: '03',
       projectName: 'Numerical simulation',
-      projectDesc: 'Programming, simulation and error analysis with C++ and ParaView of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Covection-diffusion equation (flux balance, centroidal and upwind discretization), Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
+      projectDesc: 'Programming, simulation and error analysis of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Convection-diffusion equation (flux balance, central and upwind discretization), Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
       projectType: 'C++, ParaView',
       roles: ['Project', 'RWTH Aachen']
     }, {
       number: '04',
       projectName: 'B.E.S. Development',
-      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluating different ontologies like SAREF and Brick and using FIWARE framework, MQTT network protocol, Python modules to realize an IoT communication (SPS to MQTT). Data visualization with FIWARE IoT Agent for JSON, MongoDB and Grafana.',
-      projectType: 'SAREF ontologies, FIWARE framework, MQTT, TwinCAT, MongoDB, Grafana',
+      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluating of different ontologies (SAREF, Brick, ...). Realization of an IoT communication (SPS to DataBase) using FIWARE framework, MQTT network protocol, Python modules. Data visualization with FIWARE IoT Agent for JSON, CrateDB and Grafana.',
+      projectType: 'Ontologies, FIWARE framework, MQTT, TwinCAT, CrateDB, MongoDB, Grafana',
       roles: ['Project', 'E.ON Energy Research Center - RWTH']
     }, {
       number: '05',
       projectName: 'League BestPick',
-      projectDesc: "This tool helps player to pick best champion that goes well with the current teammates/enemies selected champions, based on games data collected using League of legends' API (LCU) and represent the result in a webpage using Flask and React",
-      projectType: "Python, Flask, Electron-ReactJS, HTML, CSS, League of legends' API (LCU)",
+      projectDesc: "Based on games data collected using League of legends API (stored locally in a database) and Real-time data fetching from the game client using LCU API, this project helps players to pick the best champion that goes well with the currently selected teammates/enemies champions and represent the result in a live/dynamic webpage using Flask and React",
+      projectType: "Python, Flask, Electron-ReactJS, HTML, CSS, League of legends API, LCU API",
       roles: ['Project']
     }, {
       number: '06',
       projectName: 'TFT BestCombo',
-      projectDesc: 'This tool will read live the TFT game memory and collect all players board and field bought champion calculate how many left and display, sugguest the best possible combo to play in this game based on chances. Best Combo/Meta data and photos get mined by a data scraper that i made.',
+      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest  the best possible comps to play in this game based on chances. Best Comps/Meta data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
       projectType: 'Python, Flask, HTML, Css, custom memory Dumper, IDA, ReClass.NET.',
       roles: ['Project']
     }, {
       number: '07',
       projectName: '3D Modeling',
-      projectDesc: 'Since 2012, I have made many 3D Models as a project to test my limits or as objects to use in my video games or modding other video games (sadly wasnt able to find all the projects).',
+      projectDesc: 'Since 2015, I have made many 3D Models as projects to test my limits or as objects to use in my video games or modding other video games (soon I will extend this section to present more).',
       projectType: "Photoshop, Blender, Autodesk 3ds Max, Cinema4D, Siemens NX",
       roles: ['Projects']
     }, {
       number: '08',
       projectName: 'Video games development',
-      projectDesc: 'I Love Video Games and for 10 years and counting i made many of them 2D and 3D from cards game to FPS, testing as many engines as possible but mostly i have used unity (sadly wasnt able to find all the projects).',
-      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity',
+      projectDesc: 'Video Games are my passion and for 6 years and counting I made variety of them 2D and 3D from cards game to FPS single and multiplayer, testing as many engines as possible but mainly using unity (soon I will extend this section to present more).',
+      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
+      roles: ['Projects']
+    }, {
+      number: '09',
+      projectName: 'Hosting/maintaining games server ',
+      projectDesc: 'In the last 4 years I extended my knowledge with cloud (currently using oracle) and hosted my own multiplayer games server (Minecraft, Unturned, Conan exile, Rust, GTA5) with custom-made scripts and 3D models that I created and maintained to Enhance the best player experience (like optimizing scripts and 3D models to minimize client-server latency and reduce FPS stuttering and boost performance).',
+      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
       roles: ['Projects']
     }, {
       number: '',
@@ -39155,7 +39479,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53476" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62189" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
