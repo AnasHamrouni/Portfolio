@@ -35891,7 +35891,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:1470vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:1220vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
 
 var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:40vh;\nheight: 100vh;\nposition: relative;\n"])));
 
@@ -36021,14 +36021,6 @@ var ImageContent = /*#__PURE__*/function (_Component) {
         scrollPercent: scrollPercent,
         screenHeight: screenHeight,
         scrollHeight: scrollHeight
-      })), /*#__PURE__*/_react.default.createElement(ImageBox, {
-        height: boxHeight
-      }, /*#__PURE__*/_react.default.createElement(_ServerHostingImages.default, {
-        boxHeight: boxHeight,
-        index: 8,
-        scrollPercent: scrollPercent,
-        screenHeight: screenHeight,
-        scrollHeight: scrollHeight
       })));
     }
   }]);
@@ -36148,8 +36140,8 @@ var Work = /*#__PURE__*/function (_Component) {
       roles: ['Project']
     }, {
       number: '06',
-      projectName: 'TFT BestCombo',
-      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest  the best possible comps to play in this game based on chances. Best Comps/Meta data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
+      projectName: 'TFT BestComps',
+      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest the best possible comps to play in this game based on chances. Best Comps/Meta (Tier List) data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
       projectType: 'Python, Flask, HTML, Css, custom memory Dumper, IDA, ReClass.NET.',
       roles: ['Project']
     }, {
@@ -36162,12 +36154,6 @@ var Work = /*#__PURE__*/function (_Component) {
       number: '08',
       projectName: 'Video games development',
       projectDesc: 'Video Games are my passion and for 6 years and counting I made variety of them 2D and 3D from cards game to FPS single and multiplayer, testing as many engines as possible but mainly using unity (soon I will extend this section to present more).',
-      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
-      roles: ['Projects']
-    }, {
-      number: '09',
-      projectName: 'Hosting/maintaining games server ',
-      projectDesc: 'In the last 4 years I extended my knowledge with cloud (currently using oracle) and hosted my own multiplayer games server (Minecraft, Unturned, Conan exile, Rust, GTA5) with custom-made scripts and 3D models that I created and maintained to Enhance the best player experience (like optimizing scripts and 3D models to minimize client-server latency and reduce FPS stuttering and boost performance).',
       projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
       roles: ['Projects']
     }, {
@@ -38657,7 +38643,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nwidth:100%;\nheight:1470vh;\nmargin-bottom:30vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nwidth:100%;\nheight:1220vh;\nmargin-bottom:30vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
 
 var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:30vh;\nheight: 100vh;\nposition: relative;\n"])));
 
@@ -38790,14 +38776,6 @@ var ImageContent = /*#__PURE__*/function (_Component) {
         scrollPercent: scrollPercent,
         screenHeight: screenHeight,
         scrollHeight: scrollHeight
-      })), /*#__PURE__*/_react.default.createElement(ImageBox, {
-        height: boxHeight
-      }, /*#__PURE__*/_react.default.createElement(_ServerHostingImages.default, {
-        boxHeight: boxHeight,
-        index: 8,
-        scrollPercent: scrollPercent,
-        screenHeight: screenHeight,
-        scrollHeight: scrollHeight
       })));
     }
   }]);
@@ -38919,8 +38897,8 @@ var Work = /*#__PURE__*/function (_Component) {
       roles: ['Project']
     }, {
       number: '06',
-      projectName: 'TFT BestCombo',
-      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest  the best possible comps to play in this game based on chances. Best Comps/Meta data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
+      projectName: 'TFT BestComps',
+      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest the best possible comps to play in this game based on chances. Best Comps/Meta (Tier List) data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
       projectType: 'Python, Flask, HTML, Css, custom memory Dumper, IDA, ReClass.NET.',
       roles: ['Project']
     }, {
@@ -38933,12 +38911,6 @@ var Work = /*#__PURE__*/function (_Component) {
       number: '08',
       projectName: 'Video games development',
       projectDesc: 'Video Games are my passion and for 6 years and counting I made variety of them 2D and 3D from cards game to FPS single and multiplayer, testing as many engines as possible but mainly using unity (soon I will extend this section to present more).',
-      projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
-      roles: ['Projects']
-    }, {
-      number: '09',
-      projectName: 'Hosting/maintaining games server ',
-      projectDesc: 'In the last 4 years I extended my knowledge with cloud (currently using oracle) and hosted my own multiplayer games server (Minecraft, Unturned, Conan exile, Rust, GTA5) with custom-made scripts and 3D models that I created and maintained to Enhance the best player experience (like optimizing scripts and 3D models to minimize client-server latency and reduce FPS stuttering and boost performance).',
       projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
       roles: ['Projects']
     }, {
