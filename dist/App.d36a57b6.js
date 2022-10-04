@@ -34379,7 +34379,7 @@ var TextContent = /*#__PURE__*/function (_Component) {
         inline: false
       }, projectDesc)))), /*#__PURE__*/_react.default.createElement(ProjectType, null, /*#__PURE__*/_react.default.createElement(BlockTextReveal, {
         refreshToggle: refreshToggle,
-        inline: true
+        inline: false
       }, projectType)));
     }
   }]);
@@ -39412,9 +39412,9 @@ var App = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
-        query: "(min-device-width: 1224px)"
+        query: "(min-device-width: 1920px)"
       }, /*#__PURE__*/_react.default.createElement(_Hero.default, null), /*#__PURE__*/_react.default.createElement(_Work.default, null), /*#__PURE__*/_react.default.createElement(_Skills.default, null), /*#__PURE__*/_react.default.createElement(_Contact.default, null)), /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
-        query: "(max-device-width: 1224px)"
+        query: "(max-device-width: 1900px)"
       }, /*#__PURE__*/_react.default.createElement(_Hero2.default, null), /*#__PURE__*/_react.default.createElement(_Work2.default, null), /*#__PURE__*/_react.default.createElement(_Skills2.default, null), /*#__PURE__*/_react.default.createElement(_Contact2.default, null)), /*#__PURE__*/_react.default.createElement(GlobalStyle, null));
     }
   }]);
@@ -39451,7 +39451,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62189" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64796" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
