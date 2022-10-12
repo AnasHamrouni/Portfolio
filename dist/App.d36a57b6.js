@@ -33962,7 +33962,9 @@ TitleReveal.defaultProps = {
 };
 var _default = TitleReveal;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Slides/WideScreen/HeroSlide/NameAndJobTitle.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../Assets/Responsive/breakpoints":"Assets/Responsive/breakpoints.js"}],"Slides/WideScreen/HeroSlide/Images/AnasImage.png":[function(require,module,exports) {
+module.exports = "/AnasImage.0d0a19e0.png";
+},{}],"Slides/WideScreen/HeroSlide/NameAndJobTitle.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33978,7 +33980,9 @@ var _NameReveal = _interopRequireDefault(require("./NameReveal"));
 
 var _TitleReveal = _interopRequireDefault(require("./TitleReveal"));
 
-var _templateObject;
+var _AnasImage = _interopRequireDefault(require("./Images/AnasImage.png"));
+
+var _templateObject, _templateObject2;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34012,6 +34016,8 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    flex-flow: column nowrap;\n    justify-content: center;\n    align-items: center;\n    height:100vh;\n    width:100%;\n    background-color: white;\n    /* border: 1px solid blue; */\n"])));
 
+var AnasTab = _styledComponents.default.img.attrs({})(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\nopacity: 0;\nanimation: fade-in-right .6s ease 2.3s forwards;\nposition: absolute;\nheight: 50vh;\ntop: 137px;\nmargin-left: 493px;\n@keyframes fade-in-right {\n  from {\n    opacity: 0;\n    transform: translateY(15px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n"])));
+
 var NameAndJobTitle = /*#__PURE__*/function (_Component) {
   _inherits(NameAndJobTitle, _Component);
 
@@ -34026,7 +34032,10 @@ var NameAndJobTitle = /*#__PURE__*/function (_Component) {
   _createClass(NameAndJobTitle, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(_NameReveal.default, {
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(AnasTab, {
+        src: _AnasImage.default,
+        alt: "AnasImage"
+      }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_NameReveal.default, {
         text: "Anas Hamrouni",
         fontFam: "Valencia",
         timeDelay: 500
@@ -34043,7 +34052,7 @@ var NameAndJobTitle = /*#__PURE__*/function (_Component) {
 
 var _default = NameAndJobTitle;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","./NameReveal":"Slides/WideScreen/HeroSlide/NameReveal.js","./TitleReveal":"Slides/WideScreen/HeroSlide/TitleReveal.js"}],"Slides/WideScreen/HeroSlide/AboutMe.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","./NameReveal":"Slides/WideScreen/HeroSlide/NameReveal.js","./TitleReveal":"Slides/WideScreen/HeroSlide/TitleReveal.js","./Images/AnasImage.png":"Slides/WideScreen/HeroSlide/Images/AnasImage.png"}],"Slides/WideScreen/HeroSlide/AboutMe.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36111,7 +36120,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '01',
       projectName: 'DyOS GUI',
-      projectDesc: 'Design and creation of a graphical user interface (GUI) for the AVT.SVT software tool DyOS.',
+      projectDesc: 'Design and creation of a graphical user interface (GUI) for the AVT.SVT software tool DyOS (a software framework for solving dynamic optimization problems).',
       projectType: 'Qt, C++',
       roles: ['Project', 'AVT.SVT - RWTH Aachen']
     }, {
@@ -36123,13 +36132,13 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '03',
       projectName: 'Numerical simulation',
-      projectDesc: 'Programming, simulation and error analysis of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Convection-diffusion equation (flux balance, central and upwind discretization), Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
+      projectDesc: 'Programming, simulation and error analysis of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Convection-diffusion equation (flux balance: central and upwind discretization) and Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
       projectType: 'C++, ParaView',
       roles: ['Project', 'RWTH Aachen']
     }, {
       number: '04',
       projectName: 'B.E.S. Development',
-      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluating of different ontologies (SAREF, Brick, ...). Realization of an IoT communication (SPS to DataBase) using FIWARE framework, MQTT network protocol, Python modules. Data visualization with FIWARE IoT Agent for JSON, CrateDB and Grafana.',
+      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluation of different ontologies (SAREF, Brick, ...). Realization of an IoT communication (SPS to DataBase) using FIWARE framework, MQTT network protocol, Python modules. Data visualization with FIWARE IoT Agent for JSON, CrateDB and Grafana.',
       projectType: 'Ontologies, FIWARE framework, MQTT, TwinCAT, CrateDB, MongoDB, Grafana',
       roles: ['Project', 'E.ON Energy Research Center - RWTH']
     }, {
@@ -36137,25 +36146,25 @@ var Work = /*#__PURE__*/function (_Component) {
       projectName: 'League BestPick',
       projectDesc: "Based on games data collected using League of legends API (stored locally in a database) and Real-time data fetching from the game client using LCU API, this project helps players to pick the best champion that goes well with the currently selected teammates/enemies champions and represent the result in a live/dynamic webpage using Flask and React",
       projectType: "Python, Flask, Electron-ReactJS, HTML, CSS, League of legends API, LCU API",
-      roles: ['Project']
+      roles: ['Personal Project']
     }, {
       number: '06',
       projectName: 'TFT BestComps',
-      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest the best possible comps to play in this game based on chances. Best Comps/Meta (Tier List) data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
+      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect data of all the board and field champions bought by all the players, calculate how many are left and display/suggest the best possible comps to play in this game based on probability. Best Comps/Meta (Tier List) data and photos get mined from known website like tftactics.gg by a custom data scraper that I made.',
       projectType: 'Python, Flask, HTML, Css, custom memory Dumper, IDA, ReClass.NET.',
-      roles: ['Project']
+      roles: ['Personal Project']
     }, {
       number: '07',
       projectName: '3D Modeling',
       projectDesc: 'Since 2015, I have made many 3D Models as projects to test my limits or as objects to use in my video games or modding other video games (soon I will extend this section to present more).',
       projectType: "Photoshop, Blender, Autodesk 3ds Max, Cinema4D, Siemens NX",
-      roles: ['Projects']
+      roles: ['Personal Projects']
     }, {
       number: '08',
       projectName: 'Video games development',
       projectDesc: 'Video Games are my passion and for 6 years and counting I made variety of them 2D and 3D from cards game to FPS single and multiplayer, testing as many engines as possible but mainly using unity (soon I will extend this section to present more).',
       projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
-      roles: ['Projects']
+      roles: ['Personal Projects']
     }, {
       number: '',
       projectName: '',
@@ -36355,7 +36364,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "C++", /*#__PURE__*/_react.default.createElement("br", null), "C#", /*#__PURE__*/_react.default.createElement("br", null), "Python", /*#__PURE__*/_react.default.createElement("br", null), "Java", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "HTML5", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "JavaScript", /*#__PURE__*/_react.default.createElement("br", null), "PHP", /*#__PURE__*/_react.default.createElement("br", null), "SQL", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Photoshop", /*#__PURE__*/_react.default.createElement("br", null), "Blender", /*#__PURE__*/_react.default.createElement("br", null), "Autodesk 3ds Max", /*#__PURE__*/_react.default.createElement("br", null), "Cinema4D", /*#__PURE__*/_react.default.createElement("br", null), "Siemens NX", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Unity", /*#__PURE__*/_react.default.createElement("br", null), "Unreal Engine 4/5", /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "C++", /*#__PURE__*/_react.default.createElement("br", null), "C#", /*#__PURE__*/_react.default.createElement("br", null), "Python", /*#__PURE__*/_react.default.createElement("br", null), "Java", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), "Modelica", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "HTML5", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "JavaScript", /*#__PURE__*/_react.default.createElement("br", null), "PHP", /*#__PURE__*/_react.default.createElement("br", null), "SQL", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Photoshop", /*#__PURE__*/_react.default.createElement("br", null), "Blender", /*#__PURE__*/_react.default.createElement("br", null), "Autodesk 3ds Max", /*#__PURE__*/_react.default.createElement("br", null), "Cinema4D", /*#__PURE__*/_react.default.createElement("br", null), "Siemens NX", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Unity", /*#__PURE__*/_react.default.createElement("br", null), "Unreal Engine 4/5", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -36619,10 +36628,6 @@ var Contact = /*#__PURE__*/function (_Component) {
         imgURL: _mail.default,
         alternate: "Mail",
         redirectURL: "mailto:anas.hamrouni@rwth-aachen.de"
-      }), /*#__PURE__*/_react.default.createElement(_SocialLogo.default, {
-        imgURL: _git.default,
-        alternate: "Github",
-        redirectURL: "https://git.rwth-aachen.de/hamrouni.anas97"
       })));
     }
   }]);
@@ -38868,7 +38873,7 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '01',
       projectName: 'DyOS GUI',
-      projectDesc: 'Design and creation of a graphical user interface (GUI) for the AVT.SVT software tool DyOS.',
+      projectDesc: 'Design and creation of a graphical user interface (GUI) for the AVT.SVT software tool DyOS (a software framework for solving dynamic optimization problems).',
       projectType: 'Qt, C++',
       roles: ['Project', 'AVT.SVT - RWTH Aachen']
     }, {
@@ -38880,13 +38885,13 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '03',
       projectName: 'Numerical simulation',
-      projectDesc: 'Programming, simulation and error analysis of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Convection-diffusion equation (flux balance, central and upwind discretization), Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
+      projectDesc: 'Programming, simulation and error analysis of numerical integration (using Dirichlet and Neumann boundary conditions) for Laplace equation, Convection-diffusion equation (flux balance: central and upwind discretization) and Pulse equation (at given pressure, pressure correction with SIMPLE algorithm).',
       projectType: 'C++, ParaView',
       roles: ['Project', 'RWTH Aachen']
     }, {
       number: '04',
       projectName: 'B.E.S. Development',
-      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluating of different ontologies (SAREF, Brick, ...). Realization of an IoT communication (SPS to DataBase) using FIWARE framework, MQTT network protocol, Python modules. Data visualization with FIWARE IoT Agent for JSON, CrateDB and Grafana.',
+      projectDesc: 'Development of an entity structure for a building energy system (B.E.S.). Evaluation of different ontologies (SAREF, Brick, ...). Realization of an IoT communication (SPS to DataBase) using FIWARE framework, MQTT network protocol, Python modules. Data visualization with FIWARE IoT Agent for JSON, CrateDB and Grafana.',
       projectType: 'Ontologies, FIWARE framework, MQTT, TwinCAT, CrateDB, MongoDB, Grafana',
       roles: ['Project', 'E.ON Energy Research Center - RWTH']
     }, {
@@ -38894,25 +38899,25 @@ var Work = /*#__PURE__*/function (_Component) {
       projectName: 'League BestPick',
       projectDesc: "Based on games data collected using League of legends API (stored locally in a database) and Real-time data fetching from the game client using LCU API, this project helps players to pick the best champion that goes well with the currently selected teammates/enemies champions and represent the result in a live/dynamic webpage using Flask and React",
       projectType: "Python, Flask, Electron-ReactJS, HTML, CSS, League of legends API, LCU API",
-      roles: ['Project']
+      roles: ['Personal Project']
     }, {
       number: '06',
       projectName: 'TFT BestComps',
-      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect all players board and field bought champions, calculate how many left and display/suggest the best possible comps to play in this game based on chances. Best Comps/Meta (Tier List) data and photos get mined from knowen website like tftactics.gg by a custom data scraper that I made.',
+      projectDesc: 'While reading process memory of the TFT game during runtime, this tool collect data of all the board and field champions bought by all the players, calculate how many are left and display/suggest the best possible comps to play in this game based on probability. Best Comps/Meta (Tier List) data and photos get mined from known website like tftactics.gg by a custom data scraper that I made.',
       projectType: 'Python, Flask, HTML, Css, custom memory Dumper, IDA, ReClass.NET.',
-      roles: ['Project']
+      roles: ['Personal Project']
     }, {
       number: '07',
       projectName: '3D Modeling',
       projectDesc: 'Since 2015, I have made many 3D Models as projects to test my limits or as objects to use in my video games or modding other video games (soon I will extend this section to present more).',
       projectType: "Photoshop, Blender, Autodesk 3ds Max, Cinema4D, Siemens NX",
-      roles: ['Projects']
+      roles: ['Personal Projects']
     }, {
       number: '08',
       projectName: 'Video games development',
       projectDesc: 'Video Games are my passion and for 6 years and counting I made variety of them 2D and 3D from cards game to FPS single and multiplayer, testing as many engines as possible but mainly using unity (soon I will extend this section to present more).',
       projectType: 'Gamemaker Studio, Unreal Engine 4/5, Unity, MySQL, Cloud',
-      roles: ['Projects']
+      roles: ['Personal Projects']
     }, {
       number: '',
       projectName: '',
@@ -39060,7 +39065,7 @@ var Skills = /*#__PURE__*/function (_Component) {
   _createClass(Skills, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, null, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "C++", /*#__PURE__*/_react.default.createElement("br", null), "C#", /*#__PURE__*/_react.default.createElement("br", null), "Python", /*#__PURE__*/_react.default.createElement("br", null), "Java", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "HTML5", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "JavaScript", /*#__PURE__*/_react.default.createElement("br", null), "PHP", /*#__PURE__*/_react.default.createElement("br", null), "SQL", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Photoshop", /*#__PURE__*/_react.default.createElement("br", null), "Blender", /*#__PURE__*/_react.default.createElement("br", null), "Autodesk 3ds Max", /*#__PURE__*/_react.default.createElement("br", null), "Cinema4D", /*#__PURE__*/_react.default.createElement("br", null), "Siemens NX", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Unity", /*#__PURE__*/_react.default.createElement("br", null), "Unreal Engine 4/5", /*#__PURE__*/_react.default.createElement("br", null))));
+      return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, null, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "C++", /*#__PURE__*/_react.default.createElement("br", null), "C#", /*#__PURE__*/_react.default.createElement("br", null), "Python", /*#__PURE__*/_react.default.createElement("br", null), "Java", /*#__PURE__*/_react.default.createElement("br", null), "MATLAB", /*#__PURE__*/_react.default.createElement("br", null), "Modelica", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "HTML5", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "JavaScript", /*#__PURE__*/_react.default.createElement("br", null), "PHP", /*#__PURE__*/_react.default.createElement("br", null), "SQL", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Photoshop", /*#__PURE__*/_react.default.createElement("br", null), "Blender", /*#__PURE__*/_react.default.createElement("br", null), "Autodesk 3ds Max", /*#__PURE__*/_react.default.createElement("br", null), "Cinema4D", /*#__PURE__*/_react.default.createElement("br", null), "Siemens NX", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Unity", /*#__PURE__*/_react.default.createElement("br", null), "Unreal Engine 4/5", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -39242,10 +39247,6 @@ var Contact = /*#__PURE__*/function (_Component) {
         imgURL: _mail.default,
         alternate: "Mail",
         redirectURL: "mailto:anas.hamrouni@rwth-aachen.de"
-      }), /*#__PURE__*/_react.default.createElement(_SocialLogo.default, {
-        imgURL: _git.default,
-        alternate: "Github",
-        redirectURL: "https://git.rwth-aachen.de/hamrouni.anas97"
       })));
     }
   }]);
@@ -39412,9 +39413,9 @@ var App = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
-        query: "(min-device-width: 1920px)"
+        query: "(min-device-width: 1224px)"
       }, /*#__PURE__*/_react.default.createElement(_Hero.default, null), /*#__PURE__*/_react.default.createElement(_Work.default, null), /*#__PURE__*/_react.default.createElement(_Skills.default, null), /*#__PURE__*/_react.default.createElement(_Contact.default, null)), /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
-        query: "(max-device-width: 1900px)"
+        query: "(max-device-width: 1224px)"
       }, /*#__PURE__*/_react.default.createElement(_Hero2.default, null), /*#__PURE__*/_react.default.createElement(_Work2.default, null), /*#__PURE__*/_react.default.createElement(_Skills2.default, null), /*#__PURE__*/_react.default.createElement(_Contact2.default, null)), /*#__PURE__*/_react.default.createElement(GlobalStyle, null));
     }
   }]);
@@ -39451,7 +39452,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64796" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49372" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
